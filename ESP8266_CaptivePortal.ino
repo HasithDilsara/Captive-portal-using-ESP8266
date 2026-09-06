@@ -4,12 +4,11 @@
 #include <LittleFS.h> // Required to pull the GIF from memory
 
 const byte DNS_PORT = 53;
-// We are keeping your IP address since it successfully triggered your phone!
+// keeping your IP address since it successfully triggered your phone!
 IPAddress apIP(172, 217, 28, 1); 
 DNSServer dnsServer;
 ESP8266WebServer webServer(80);
 
-// Your working HTML, updated to include an image tag pointing to the GIF
 String responseHTML = ""
                       "<!DOCTYPE html><html lang='en'><head>"
                       "<meta name='viewport' content='width=device-width'>"
