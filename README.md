@@ -105,11 +105,6 @@ This keeps the program code cleaner and avoids unnecessarily embedding binary da
 ## ESP8266WiFi
 
 Used to configure the ESP8266's wireless networking functionality.
-
-```cpp
-#include <ESP8266WiFi.h>
-```
-
 Used for:
 
 * Access Point creation
@@ -124,12 +119,6 @@ Used to implement DNS request handling for the captive portal.
 
 ```cpp
 #include <DNSServer.h>
-```
-
-Main functionality:
-
-```text
-DNS Request → ESP8266 IP Address
 ```
 
 ---
@@ -317,35 +306,6 @@ Therefore:
 * Multiple simultaneous users can increase memory and bandwidth usage.
 
 ---
-
-# 🔬 What I Learned
-
-This project provided practical experience with:
-
-**Embedded Systems**
-
-* ESP8266 programming
-* Flash storage
-* LittleFS
-
-**Networking**
-
-* Wi-Fi Access Points
-* IP addressing
-* DNS
-* DNS redirection
-* HTTP
-* Captive portal concepts
-
-**Web Technologies**
-
-* HTML
-* CSS
-* HTTP routing
-* Serving media from an embedded device
-
-The project was developed primarily as a **hands-on learning experiment to understand networking configuration on ESP8266 and how embedded hardware can provide network services without a traditional server.**
-
 
 ## 📜 License
 
