@@ -6,25 +6,6 @@ The ESP8266 creates its own Wi-Fi network. When a device connects to the network
 
 ---
 
-## 🎯 Project Objective
-
-The main objective of this project is to understand how **network configuration and networking concepts can be implemented on a microcontroller**.
-
-The project provides practical experience with:
-
-* Wi-Fi Access Point configuration
-* SSID and password configuration
-* IP addressing
-* Captive portal concepts
-* HTTP web servers
-* HTTP request routing
-* Embedded web pages
-* ESP8266 flash storage
-* LittleFS file management
-* Serving media files from a microcontroller
-
----
-
 ## ✨ Features
 
 ### 📡 Wi-Fi Access Point
@@ -97,63 +78,6 @@ animation.gif
 ```
 
 This keeps the program code cleaner and avoids unnecessarily embedding binary data into the source code.
-
----
-
-# 🔧 Main Libraries
-
-## ESP8266WiFi
-
-Used to configure the ESP8266's wireless networking functionality.
-Used for:
-
-* Access Point creation
-* Wi-Fi configuration
-* IP address information
-
----
-
-## DNSServer
-
-Used to implement DNS request handling for the captive portal.
-
-```cpp
-#include <DNSServer.h>
-```
-
----
-
-## ESP8266WebServer
-
-Used to create the HTTP server.
-
-```cpp
-#include <ESP8266WebServer.h>
-```
-
-It handles:
-
-* HTTP requests
-* URL routes
-* HTTP responses
-* File serving
-
----
-
-## LittleFS
-
-Used as the flash-based filesystem.
-
-```cpp
-#include <LittleFS.h>
-```
-
-It provides:
-
-* File storage
-* File reading
-* File management
-* Serving web assets
 
 ---
 
